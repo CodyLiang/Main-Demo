@@ -42,7 +42,7 @@ header, footer {
 
 .item .demo li:hover {
     background: rgb(69, 136, 222);
-    border: none;
+    border: 1px solid rgb(69, 136, 222);
 }
 .item .demo li:hover a {
     color: #fff;
