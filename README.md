@@ -1,6 +1,8 @@
 # Main-Demo
-IFE主要作品
+主要作品
 
+- 米米乐商城： [Deme](http://www.mrzzchao.com/Mmloo/code/client/dist/#/)
+- StreamACon主页: [Demo](http://www.mrzzchao.com/Demo/Boot/dist/)
 - 个人主页：[Demo](http://www.mrzzchao.com/ife-work/7-1/)
 - 新闻页面：[Demo](http://www.mrzzchao.com/ife-work/Step1/task006/)
 - 科技公司主页：[Demo](http://www.mrzzchao.com/ife-work/Step1/task007/)
