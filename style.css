@@ -52,6 +52,10 @@ header, footer {
 	-webkit-transform: scale(1.5);
 	-o-transform: scale(1.5);
 	-moz-transform: scale(1.5);
+	-ms-box-shadow: 4px 4px 5px #888;
+	-webkit-box-shadow: 4px 4px 5px #888;
+	-moz-box-shadow: 4px 4px 5px #888;
+	-o-box-shadow: 4px 4px 5px #888;
 }
 .item .demo li:hover a {
     color: #fff;
