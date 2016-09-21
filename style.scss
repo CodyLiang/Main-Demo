@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix,
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: table;
+}
+
+footer,
+header {
+    height: 100px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    line-height: 100px;
+}
+
+.item {
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.item h4 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.item .demo li {
+    display: block;
+    float: left;
+    border: 1px solid rgb(118, 118, 119);
+    box-sizing: border-box;
+    list-style: none;
+    transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    animation: swing 3s linear 0.5s 1 alternate;
+}
+
+.item .demo li a {
+    color: rgb(69, 136, 222);
+    animation: fontAnima 3s linear 0.5s 1 alternate;
+}
+
+.item .demo li:hover {
+    background: rgb(69, 136, 222);
+    border: 1px solid rgb(69, 136, 222);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-box-shadow: 4px 4px 5px #888;
+    -webkit-box-shadow: 4px 4px 5px #888;
+    -moz-box-shadow: 4px 4px 5px #888;
+    -o-box-shadow: 4px 4px 5px #888;
+}
+
+.item .demo li:hover a {
+    color: #fff;
+}
+
+.item .demo a {
+    display: block;
+    width: 150px;
+    height: 60px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 60px;
+}
+@keyframes swing {
+    0% {
+        margin: 0;
+        color: #fff;
+        background: rgb(69, 136, 222);
+        border: 1px solid rgb(69, 136, 222);
+        transform: rotate(-3deg);
+    }
+
+    25% {
+        margin: 4px;
+        color: #fff;
+        background: rgb(69, 136, 222);
+        border: 1px solid rgb(69, 136, 222);
+        box-shadow: 4px 4px 5px #888;
+        transform: rotate(3deg);
+    }
+
+    50% {
+        margin: 6px;
+        color: #fff;
+        background: rgb(69, 136, 222);
+        border: 1px solid rgb(69, 136, 222);
+        box-shadow: 4px 4px 5px #888;
+        transform: rotate(-3deg);
+    }
+
+    75% {
+        margin: 10px;
+        color: #fff;
+        background: rgb(69, 136, 222);
+        border: 1px solid rgb(69, 136, 222);
+        box-shadow: 4px 4px 5px #888;
+        transform: rotate(3deg);
+    }
+
+    100% {
+        margin: 0;
+        border: 1px solid rgb(118, 118, 119);
+        background: #fff;
+        transform: rotate(0);
+    }
+}
+@keyframes fontAnima {
+    0% {
+        color: #fff;
+    }
+
+    25% {
+        color: #fff;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    75% {
+        color: #fff;
+    }
+
+    100% {
+        color: rgb(69, 136, 222);
+    }
+}
