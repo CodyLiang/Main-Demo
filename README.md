@@ -5,6 +5,7 @@
 - StreamACon主页: [Demo](http://www.mrzzchao.com/Demo/Boot/dist/)
 - 溯源平台： [Demo](http://www.mrzzchao.com/Suyuan/index.html)
 - 电子表：[Demo](http://www.mrzzchao.com/HTML5/Canvas/demo/time/)
+- 2048：[Demo](http://www.mrzzchao.com/Game/2048/dist/)
 - 个人主页：[Demo](http://www.mrzzchao.com/ife-work/7-1/)
 - 新闻页面：[Demo](http://www.mrzzchao.com/ife-work/Step1/task006/)
 - 科技公司主页：[Demo](http://www.mrzzchao.com/ife-work/Step1/task007/)
